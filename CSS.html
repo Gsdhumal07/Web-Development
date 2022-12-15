@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="CSS.css">
+ </head>
+ <body><h1>This is about  CSS </h1>
+    <!-- This is inline CSS0 -->
+    <p style="color: brown; background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas blanditiis explicabo, reprehenderit ab fuga voluptatum earum porro? Impedit quisquam adipisci delectus, voluptates magnam similique exercitationem doloribus ad fugiat assumenda.
+        <!-- This is the internal CSS  -->
+        <style>
+         /*Whichever thing i write in the last that excute first   */
+            p{
+                /* if i gave same task but i want to execute the that i define ehere then simple Write important their precedance  */
+                /* precedance order
+                01.inline css
+                02.External ----01.whichever write at the last */
+
+                color: blue important;
+                text-size-adjust: 20px;
+                /* inline CSS has more importance than styple tag elements */
+            }
+        </style>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias laudantium, error optio temporibus minima voluptate nesciunt aspernatur ut distinctio quae.
+
+            </p>
+            <h2>
+                this is headind adjust by CSS 
+            </h2>
+        </div>
+
+    </p>
+ </body>
+ </html>

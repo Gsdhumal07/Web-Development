@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /*The boxes are come side bye side due to use of Box-sizing:border box*/
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+
+            background-color: lightyellow;
+            width: 900px;
+            border: 5px solid black;
+            margin: auto;
+            /*If we want to keep it in center then we use margine auto */
+        }
+
+        .items {
+            border: 2px solid green;
+            margin: 20px 5px;
+            padding: 20px 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+            background-color: rgb(226, 89, 59);
+
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+            background-color: rgb(226, 89, 59);
+        }
+
+        #stainory {
+            /* float: left; */
+            width: 98%;
+            clear: both;
+            /*It means that whichever float present on my left sid don't distrube me*/
+            background-color: rgb(226, 89, 59);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aligent</h1>
+    <div class="container">
+        <h1>Welcome to the Market</h1>
+        <div class="items" id="fruits">
+            <h1>fruits</h1>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio
+                minima repellat et eaque nihil culpa? Repellat accusamus iusto fuga! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Reiciendis illum molestiae id impedit architecto voluptas libero qui
+                laudantium ut! Quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugiat odit non
+                delectus error exercitationem magnam maxime eum? Et,Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Temporibus, at officia saepe porro expedita veniam neque error quidem alias necessitatibus. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptas qui nihil veniam sapiente mollitia
+                expedita minus tempore assumenda praesentium. lorem20
+            </p>
+        </div>
+        <div class="items" id="computer">
+            <h1>Computers</h1>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque id
+                accusantium quaerat asperiores quas quae! Enim rem ipsa excepturi tenetur! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Architecto aut molestias rem consequuntur in, nihil illo ratione cumque
+                laudantium repellat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque amet saepe laborum
+                soluta veniam autem eos asperiores placeat quos accusantium! Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Cumque iusto velit qui nulla magni necessitatibus? Fugiat fuga asperiores, accusamus
+                quo tempore atque neque suscipit aliquam ipsa unde similique repudiandae culpa sit aspernatur maxime
+                sequi modi eaque porro dolor consequuntur sed.</p>
+        </div>
+        <div class="items" id="stainory">
+            <h1>Stainory</h1>
+            <p id="stainorypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tenetur
+                assumenda perferendis dolorem repellendus ducimus eum magni nisi suscipit repellat! </p>
+        </div>
+        <div class="items" id="glasses">
+            <h1>Glasses</h1>
+            <p id="stainorypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui tenetur
+                assumenda perferendis dolorem repellendus ducimus eum magni nisi suscipit repellat! </p>
+        </div>
+    </div>
+</body>
+
+</html>

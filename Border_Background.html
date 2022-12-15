@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border and background in css</title>
+    <style>
+        #firstpara {
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            /* border-width: 4px;
+            border-color: green;   
+            border-style: solid; */
+            border: 2px green solid;
+            border-radius: 20px;
+            /*for doing round corner of the box */
+        }
+
+        #secpara {
+            background-color: yellow;
+            height: 100px;
+            width: 455px;
+            border-top: solid 4px green;
+            border-left: solid 4px red;
+            border-right: solid 4px black;
+            border-bottom: solid 4px pink;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        #thirdpara {
+            height: 100px;
+            width: 455px;
+            background-repeat: no-repeat;
+            /*if you wamt to repeat in x then write repeat-x same for y also*/
+            /* also i can set background image position by using */
+            background-position: center;
+            background-image: url(https://media.istockphoto.com/vectors/abstract-blurred-colorful-background-vector-id1248542684?k=20&m=1248542684&s=612x612&w=0&h=1yKiRrtPhiqUJXS_yJDwMGVHVkYRk2pJX4PG3TT4ZYM=)
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Border and background in css
+    </h1>
+    <p id="firstpara"> &nbsp; This is about the background color and the borders in the CSS</p>
+    <p id="secpara"> &nbsp; This is about the background color and the borders in the CSS</p>
+    <p id="thirdpara"> &nbsp; This is about the background color and the borders in the CSS</p>
+
+</body>
+
+</html>

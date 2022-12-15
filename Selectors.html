@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        /* Writing just p is a element selectors */
+        p {
+            color: red;
+            background-color: green;
+            border: 2px solid black;
+        }
+
+        /* This is Id selectors */
+        #blueele {
+            color: blue;
+            background-color: orange;
+        }
+
+        /* This is the class selectors */
+        .fourthpara {
+            color: green;
+            background-color: yellow;
+        }
+
+        /* This is grouping selectors */
+        footer.span {
+            background-color: pink;
+        }
+    </style>
+</head>
+<!-- CSS selectors are used to find the element whose proporty will be set
+    Selectors are used to target the html elements 
+    Selectors make it easy  for us to easily target single/multipal HTML elements in the markup -->
+<!-- There are four type of Selectors 
+    01.Element selectors
+    02.Id selectors
+    03.class selectors
+    04.grouping slectors -->
+
+<body>
+    <h1>This is about selectors in CSS</h1>
+    <p>this is simple paragraph to demostrate css selectors</p>
+    <p id="blueele"> this is simple paragraph to demostrate css selectors</p>
+    <p class="fourthpara">this is simple paragraph to demostrate css selectors</p>
+    <div>
+        <p>this is simple paragraph to demostrate css selectors</p>
+        <footer>
+            This is foooter
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+/* This is  called external css  */
+p{
+    color: blue;
+    font-size: 20px;
+    background-color: chartreuse;
+}
+h1
+{
+    color: darkred;
+    background-color: hotpink;
+}
+h2{
+    color: cyan;
+    background-color: darkmagenta;
+}

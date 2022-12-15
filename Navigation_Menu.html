@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            color: white;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            /*this is for the removing bullets */
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        /* after using float the background color is not working becouse it overflow from its parent */
+        .search {
+            padding: 12px 75px;
+            float: right;
+        }
+        
+        .search input {
+            border: p5x solid green;
+            border-radius: 10px;
+            padding: 3px 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#"> Home</a></li>
+                <li> <a href="#"> About</a></li>
+                <li> <a href="#"> Services</a></li>
+                <li> <a href="#"> Contact Us</a></li>
+                <div class="search">
+                    Search &nbsp; <input type="text" name="search" id="search" placeholder="What you want to search">
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+</body>
+
+</html>

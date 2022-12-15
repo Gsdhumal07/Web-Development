@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Adjustment</title>
+    <style>
+        /* Position := Absolute , Static (default) , rtealtive fixed sticky */
+        .container{
+            border: 3px solid black;
+            background-color: lightyellow;
+            height: 35454px;
+        }
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        #box3 {
+            /* position: relative;*/
+            /*if i use relative then i can use top right left bottam*/
+            /*By default position  is default*/
+            /* top: 5px; */
+            /* it means it changes to its relative position*/
+
+            /*
+            position: absolute;/*when i do position is absolute then it changes acccording to the parent*/
+            /* top: 20px;
+            left: 35px; */ 
+        
+            /* when we use fixed then while scrolling its position fix */
+            /* position: fixed;
+            right: 15px; */
+
+            /* when i scroll the screen then box stick to the head  */
+            position: sticky;
+            top: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3">chat with us</div>
+        <div class="box" id="box4"></div>
+    </div>
+
+</body>
+
+</html>
